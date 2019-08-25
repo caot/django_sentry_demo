@@ -1,0 +1,5 @@
+export DJANGO_SETTINGS_MODULE=django_sentry.settings_me
+
+env | grep DJANGO_SETTINGS_MODULE
+
+python manage.py runserver 8090
